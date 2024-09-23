@@ -17,7 +17,7 @@
 - Add a `version-<plugin>.txt` file to the repository with your plugin's latest version number.
 - Once enabled, your version file will be hosted at: `https://snowypy.github.io/vandal-version/version-<plugin>.txt`.
 
-### 2. Fetch the Version in the Plugin
+### 2. Fetch Version in the Plugin
 
 In any Vandal Development plugin (written in Kotlin or Java), you can use an HTTP request to fetch the version file from GitHub Pages and compare it with your current version.
 
